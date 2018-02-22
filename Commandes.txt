@@ -2,5 +2,7 @@ git status : status du dossier courant
 git init : ajoute le dossier courant comme devant être gérer par Git
 git add [nom fichier]: ajoute le fichier (doit être ajouté avec de pouvoir le commit !)
 git commit -a -m "message" : commit les fichiers du dossiers avec la raison du Commit (m) (ATTENTION aux accents !) et commit tous les fichiers déjà présent (a)
-
-GOUGOUL
+git log : pour voir tous les commit
+git checkout master : pour revenir au dernier commit
+git checkout [sha] : permet de revenir au commit spécifié (par son sha, càd son Id)
+git clone @Github : permet de récupérer le projet désiré
