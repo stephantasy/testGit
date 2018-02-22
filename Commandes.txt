@@ -1,3 +1,4 @@
 git status : status du dossier courant
 git init : ajoute le dossier courant comme devant être gérer par Git
 git add [nom fichier]: ajoute le fichier 
+git commit -m "message" : commit les fichiers du dossiers avec la raison du Commit
