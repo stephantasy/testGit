@@ -11,3 +11,5 @@ git clone @Github : permet de récupérer le projet désiré depuis GitHub
 
 git remote add origin @GitHub : Crée le lien entre Git et le repository sur GitHub (à créer au préalable)
 git push origin master : Pousse les commit sur GitHub
+
+git pull origin master  : Permet de récupérer les commits faits sur GitHub par d'autres.
