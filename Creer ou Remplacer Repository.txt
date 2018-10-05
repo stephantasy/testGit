@@ -1,0 +1,14 @@
+Pour écraser un Repository existant (par exemple pour remplacer le site web sur Github) la procédure est la même que pour générer un nouveau GIT : 
+
+1. Dans le dossier du nouveau repository, copier les 3 fichiers fournis :
+	a. GitInit.bat => Pour créer le repository
+	b. GitCommitForce.bat => Utiliser lors de l'initialisation pour faire le 1er Commit/Push
+	c. GitCommitPush.bat => Pour faire les Commit/Push classiques 
+	
+2. Supprimer le ".git" s'il existe
+
+3. Executer GitInit.bat ; fournir l'addresse du Repository
+
+4. Fournir la description lorsque demandé (Motif du 1er Commit)
+
+5. Supprimer "GitInit.bat" et "GitCommitForce.bat"
