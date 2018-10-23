@@ -13,3 +13,9 @@ git remote add origin @GitHub : Crée le lien entre Git et le repository sur Git
 git push origin master : Pousse les commit sur GitHub
 
 git pull origin master  : Permet de récupérer les commits faits sur GitHub par d'autres.
+
+
+CORRIGER UN COMMIT : 
+--------------------
+git commit --amend -m "New commit message"
+git push --force origin master
